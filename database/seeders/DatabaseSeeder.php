@@ -2,8 +2,6 @@
 
 namespace Database\Seeders;
 
-ini_set('memory_limit', '-1');
-
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
