@@ -28,7 +28,23 @@ class ProductSeeder extends Seeder
             'available' => true,
             'price' => 5.00,
             'review' => 'Excelente producto. excelente aroma',
-            'image' => public_path('imagenes/aceite2.jpeg'),
+            'image' => public_path('imagenes/romero.jpeg'),
+        ]);
+
+        Product::factory()->create([
+            'name' => 'Aceite de moringa',
+            'available' => true,
+            'price' => 5.00,
+            'review' => 'Excelente para problemas del corazon recomendado',
+            'image' => public_path('public/imagenes/moringa.jpeg'),
+        ]);
+
+        Product::factory()->create([
+            'name' => 'Aceite de sabila.',
+            'available' => true,
+            'price' => 5.00,
+            'review' => 'Excelente para problemas para refrescar la piel',
+            'image' => public_path('public/imagenes/sabila.jpeg'),
         ]);
     }
 }
